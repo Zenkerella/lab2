@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body{
+        color: lightgreen;
+        font-family: Garamond, sans-serif;
+        }
+        
+        #main-header{
+        background-color: black;
+        text-align: center;
+        padding: 10px
+        }
+        
+        h1{
+        font-size: xxx-large;
+        }
+        
+        h2{
+        color: red;
+        }
+        
+        nav ul{
+        display: flex;
+        list-style: none
+        }
+        
+        .card{
+        padding: 10px;
+        border: 3px dashed red;
+        border-radius: 50px;
+        margin: 5px 1;
+        }
+        a{
+        color: maroon;
+        }
+        footer{
+        background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Mika Bouwer</h1>
+        <p>Student ID: 2917430</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>I am Mika Bouwer, a 21 year old student currently in their third year of computer science at wits university. I am interested in creating video games, and hope that this course will give me the tools to not only do that but also to be able to work in the general software design industry.</p>
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>This very webpage you are on right now. Hopefully that willl change soon.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mika Bouwer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
